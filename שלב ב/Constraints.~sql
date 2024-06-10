@@ -1,0 +1,14 @@
+ALTER TABLE Person
+ADD CONSTRAINT unique_person_mail UNIQUE (Mail);
+
+ALTER TABLE Hall
+ADD CONSTRAINT chk_hall_capacity CHECK (Capacity > 0);
+
+ALTER TABLE Person
+ADD CONSTRAINT chk_person_age CHECK (Age > 4);
+
+ALTER TABLE ActivityOperator
+ADD CONSTRAINT chk_activityoperator_ocost CHECK (OCost >= 0);
+
+ALTER TABLE Event
+MODIFY Price DEFAULT 50.00;

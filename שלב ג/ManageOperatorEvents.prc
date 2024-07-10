@@ -38,9 +38,12 @@ AS
     --v_LowestAvgRating NUMBER := 1000;
     --v_CurrentAvgRating NUMBER;
 BEGIN
+<<<<<<< HEAD
+=======
     -- Debug print: Start of the procedure
     DBMS_OUTPUT.PUT_LINE('Starting ManageOperatorEvents procedure for operator phone: ' || p_OperatorPhone);
 
+>>>>>>> f506c4ecb5f43f86bd6a1a89ea6e601aa53993b6
     -- Count the total number of upcoming events for the operator
     SELECT COUNT(*)
     INTO v_TotalEvents

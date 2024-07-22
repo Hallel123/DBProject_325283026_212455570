@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+CREATE OR REPLACE PROCEDURE PreferredOperatorType
+=======
 CREATE OR REPLACE PROCEDURE PrintPreferredOperatorType
+>>>>>>> f506c4ecb5f43f86bd6a1a89ea6e601aa53993b6
 IS
     v_avg_registrants_men NUMBER;
     v_avg_registrants_women NUMBER;

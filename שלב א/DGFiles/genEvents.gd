@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2207
+Password=2569
 Database=
 DateFormat=
 CommitCount=0
@@ -20,7 +20,7 @@ Count=420
 Name=EDATE
 Type=DATE
 Size=
-Data=Random(1/1/2000, 1/1/2016)
+Data=Random(1/1/2020, 1/1/2030)
 Master=
 
 [Record]
@@ -84,5 +84,12 @@ Name=MAINPHONE
 Type=VARCHAR2
 Size=10
 Data=List(select MAINPHONE from MANAGER)
+Master=
+
+[Record]
+Name=OpMainPhone
+Type=VARCHAR2
+Size=10
+Data=List(select MAINPHONE from ActivityOperator)
 Master=
 

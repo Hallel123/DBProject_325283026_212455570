@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2966
+Password=2054
 Database=
 DateFormat=
 CommitCount=0
@@ -14,7 +14,7 @@ InitScript=
 [Table]
 Owner=SYSTEM
 Name=EVENT_PARTICIPANT
-Count=450
+Count=1000
 
 [Record]
 Name=REVIEW
